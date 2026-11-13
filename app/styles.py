@@ -1,7 +1,9 @@
 from os import path
 from PySide6.QtWidgets import QApplication
 
-STYLES_DIR = path.join("resources", "styles")
+BASE_DIR = path.dirname(path.dirname(path.abspath(__file__)))
+
+STYLES_DIR = path.join(BASE_DIR, "resources", "styles")
 
 
 def load_stylesheet(app: QApplication) -> None:
