@@ -1,5 +1,8 @@
-database
+data/*.db
 
-.idea
+.env
 
-__pycache__
+__pycache__/
+.venv/
+.idea/
+.vscode/
