@@ -10,8 +10,7 @@ def main() -> int:
     app.setApplicationName("TimeFlow")
     app.setOrganizationName("TimeFlow")
 
-    application = Application(app)
-    application.run()
+    Application(app).run()
 
     return app.exec()
 
